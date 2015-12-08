@@ -1,0 +1,21 @@
+{
+    "name": "dolphin83/algorithm",
+    "description": "Simple algorithms for graphs",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail Koroteev",
+            "email": "mike.koroteev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Algorithm": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
