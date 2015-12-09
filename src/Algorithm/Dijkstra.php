@@ -24,7 +24,7 @@ class Dijkstra
      * маршрутами со такой же стоимостью как прямой</p>
      * @return string Сообещние о выполнение данной функции
      */
-    public static function calculate($departure, $destination, $map, $strict=true)
+    public static function getCheapestRoute($departure, $destination, $map, $strict=true)
     {
         if (! Dijkstra::checkFormat($map)) {
             return Dijkstra::FORMAT_ERROR;
